@@ -2,14 +2,14 @@ import pygame, sys
 
 pygame.init()
 
-WIDTH = 1530
-HEIGHT = 760
+wIDTH = 1400
+hEIGHT = 760
 # rgb: red green blue
-RED = (247, 243 , 222)
+rED = (247, 243 , 222)
 
-screen = pygame.display.set_mode( (WIDTH, HEIGHT) )
+screen = pygame.display.set_mode( (wIDTH, hEIGHT) )
 pygame.display.set_caption( 'TIC TAC TOE')
-screen.fill( RED )
+screen.fill( rED )
 
 Plantimg1 = pygame.image.load('./images/2.png')
 Plantimg2 = pygame.image.load('./images/6.png')
