@@ -1,3 +1,7 @@
+# 50% video-50% zelf
+
+
+
 from inspect import modulesbyfile
 from site import USER_SITE
 from turtle import width
@@ -7,25 +11,25 @@ import numpy as np
 
 pygame. init()
 
-WIDTH = 600
-HEIGHT = 600
+WIDTH = 1400
+HEIGHT = 760
 LINE_WIDTH = 15
 BOARD_ROWS = 3
 BOARD_COLS = 3
 CIRCLE_RADIUS = 60
-CIRCLE_WIDTH = 15
-CROSS_WIDTH = 25
+CIRCLE_WIDTH = 15   
+CROSS_WIDTH = 25 
 SPACE = 55
 # rgb: red green blue
 RED = (247, 243, 222)
-BG_COLOR = (247, 243, 222)
+# BG_COLOR = (247, 243, 222)
 Line_COLOR = (23, 145, 135)
 CIRCLE_COLOR = (239, 231, 200)
 CROSS_COLOR = (66, 66, 66)
 
 screen = pygame.display.set_mode( (WIDTH, HEIGHT) )
 pygame.display.set_caption( 'TIC TAC TOE' )
-screen.fill( BG_COLOR )
+# screen.fill( BG_COLOR )
 
 # board 
 board = np.zeros( (BOARD_ROWS, BOARD_COLS) )
